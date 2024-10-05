@@ -25,12 +25,17 @@ The first step is to generate the payload using Sliver and implant the malware o
 ![6](https://github.com/user-attachments/assets/9d5bee94-71fc-4ad7-a96d-8b185a6565b8)
 ![7](https://github.com/user-attachments/assets/c5387421-b4f6-4397-b687-044b10280711)
 
-
+.
+.
+.
 
 With an active session established between the two machines, the attack machine can now start exploring the target. This includes checking privileges, gathering host information, and assessing the security measures in place on the host system.
 ![8](https://github.com/user-attachments/assets/50b6cf0a-794d-49bc-a0f5-45b3fd00717c)
 ![9](https://github.com/user-attachments/assets/c5f641b1-212f-4ce7-8a22-8530d45c3326)
 
+.
+.
+.
 
 
 On the host machine we can look inside our LimaCharlie SIEM and see telemetry from the attacker. We can identify the payload thats running and see the IP its connected to.
@@ -38,13 +43,17 @@ On the host machine we can look inside our LimaCharlie SIEM and see telemetry fr
 ![11](https://github.com/user-attachments/assets/d0a212cd-d769-4095-9a00-822512b76e9d)
 ![12](https://github.com/user-attachments/assets/b14b286e-df62-4387-8dbb-329aaaab3aa8)
 
-
+.
+.
+.
 
 We can also use LimaCharlie to scan the payload's hash via VirusTotal; however, the result will be clean since the payload was just created by us.
 ![13](https://github.com/user-attachments/assets/c5b47c69-1cff-4c16-934d-815af746aa02)
 ![14](https://github.com/user-attachments/assets/ebe049a4-a6bc-491e-99c5-9b6ddeddcbbf)
 
-
+.
+.
+.
 
 On the attack machine, we can simulate a credential theft attack by dumping the LSASS memory. In LimaCharlie, we can monitor the sensors, review the telemetry, and create detection rules for this sensitive process.
 ![15](https://github.com/user-attachments/assets/472c71e8-46b9-44fc-914f-052a8b9cc844)
@@ -52,7 +61,9 @@ On the attack machine, we can simulate a credential theft attack by dumping the 
 ![17](https://github.com/user-attachments/assets/5a899c9f-2681-4edc-9cbb-9ad7e1793d19)
 
 
-
+.
+.
+.
 
 
 Instead of just focusing on detection, we can now use LimaCharlie to write a rule that both detects and blocks attacks originating from the Sliver server. On the Ubuntu machine, we can simulate aspects of a ransomware attack by attempting to delete the volume shadow copies. In LimaCharlie, we can observe the telemetry and then create a rule to fully block the attack. Once this rule is implemented in our SIEM, the Ubuntu machine will be unable to successfully carry out the same attack again.
