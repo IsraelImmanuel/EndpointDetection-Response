@@ -1,4 +1,6 @@
 This lab simulates a real-world cyber attack and endpoint detection and response scenario. Following Eric Capuano's online guide, virtual machines will be used to represent both the attacker and victim machines. The attack machine will employ 'Sliver' as the C2 framework to target a Windows endpoint, which will be protected by 'LimaCharlie' as the EDR solution.
+
+Eric Capuano's Guide:
 https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?utm_campaign=post&utm_medium=web
 
 
