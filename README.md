@@ -2,4 +2,5 @@ This lab simulates a real-world cyber attack and endpoint detection and response
 
 The first step of the lab involves setting up both machines: the attack machine will use Ubuntu Server, while the endpoint will run Windows 11. To ensure the lab operates smoothly, Microsoft Defender and other relevant settings on the Windows machine should be disabled. On the Ubuntu machine, Sliver will be installed as the primary attack tool. Meanwhile, LimaCharlie will be configured on the Windows machine as the EDR solution, with a sensor linked to it and Sysmon logs being imported for analysis.
 
+Windows 11 Machine - 
 ![1](https://github.com/user-attachments/assets/01bff9d4-2919-47bc-8012-02c8332cbd02)
