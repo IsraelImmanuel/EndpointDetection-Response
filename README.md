@@ -7,3 +7,6 @@ Windows 11 Machine -
 ![2](https://github.com/user-attachments/assets/798481aa-d167-4834-841b-0a8a265aa7db)
 ![3 5](https://github.com/user-attachments/assets/475024b9-ca68-4fad-9537-df4106cc6ce3)
 ![3](https://github.com/user-attachments/assets/f0c0a9e8-9fd1-4d33-925d-af062985fef9)
+
+Ubuntu Machine-
+![4](https://github.com/user-attachments/assets/ec2724f6-86c2-48de-9703-dd80a02ba04c)
