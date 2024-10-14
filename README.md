@@ -42,7 +42,7 @@ With an active session established between the two machines, the attack machine 
 
 
 On the host machine we can look inside our LimaCharlie SIEM and see telemetry from the attacker. We can identify the payload thats running and see the IP its connected to.
-![10](https://github.com/user-attachments/assets/821e3313-d33b-4187-9352-12ef4d5dc512)
+![10](https://github.com/user-attachments/assets/23f50f9d-17bd-4609-9210-35dc8aad9794)
 ![11](https://github.com/user-attachments/assets/ec6706a1-7147-4870-a8cc-a5e5109ad029)
 
 ![12](https://github.com/user-attachments/assets/a9d508b7-cd61-4a16-8520-e85e7103cbe7)
