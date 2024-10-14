@@ -43,8 +43,10 @@ With an active session established between the two machines, the attack machine 
 
 On the host machine we can look inside our LimaCharlie SIEM and see telemetry from the attacker. We can identify the payload thats running and see the IP its connected to.
 ![10](https://github.com/user-attachments/assets/821e3313-d33b-4187-9352-12ef4d5dc512)
-![11](https://github.com/user-attachments/assets/d0a212cd-d769-4095-9a00-822512b76e9d)
-![12](https://github.com/user-attachments/assets/b14b286e-df62-4387-8dbb-329aaaab3aa8)
+![11](https://github.com/user-attachments/assets/8480c432-dca9-4d7c-a9cf-a66048de5375)
+![12](https://github.com/user-attachments/assets/a9d508b7-cd61-4a16-8520-e85e7103cbe7)
+
+
 
 .
 .
@@ -60,7 +62,7 @@ We can also use LimaCharlie to scan the payload's hash via VirusTotal; however, 
 
 On the attack machine, we can simulate a credential theft attack by dumping the LSASS memory. In LimaCharlie, we can monitor the sensors, review the telemetry, and create detection rules for this sensitive process.
 ![15](https://github.com/user-attachments/assets/472c71e8-46b9-44fc-914f-052a8b9cc844)
-![16](https://github.com/user-attachments/assets/6ba5a41a-aeea-4c51-95aa-c698e8580469)
+![16](https://github.com/user-attachments/assets/c5e35ed3-e990-41c6-b92c-5bb784e41586)
 ![17](https://github.com/user-attachments/assets/5a899c9f-2681-4edc-9cbb-9ad7e1793d19)
 
 
@@ -73,5 +75,5 @@ Instead of just focusing on detection, we can now use LimaCharlie to write a rul
 
 ![18](https://github.com/user-attachments/assets/2b54a0b1-416a-46d8-952d-5de814cca508)
 ![19](https://github.com/user-attachments/assets/342019ee-e01a-48f2-8676-6819778777f2)
-![20](https://github.com/user-attachments/assets/7fe148fa-2e32-4841-b82e-4dd59b4ab41d)
+![20](https://github.com/user-attachments/assets/9510b799-1ae7-4049-8ed1-64ea8a1e91b7)
 ![21](https://github.com/user-attachments/assets/4db16d41-3a09-4323-8440-3e0edffb9f1f)
